@@ -2,20 +2,15 @@
 
 > A Vue.js example project for Vuetron
 
-## Build Setup
+## Build Setup (app only, no server)
 
 ``` bash
 # install dependencies
 npm install
 
-# serve with hot reload at localhost:8080
+# In one terminal, start server with hot reload on port 9000
+npm run dev-server
+
+# In another terminal, start app with hot reload at localhost:8080
 npm run dev
-
-# build for production with minification
-npm run build
-
-# build for production and view the bundle analyzer report
-npm run build --report
 ```
-
-For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
